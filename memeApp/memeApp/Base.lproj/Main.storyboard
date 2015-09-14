@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psc-ZC-S7K">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="built.ttf">
+            <string>BuiltTitlingSb-Regular</string>
+            <string>BuiltTitlingSb-Regular</string>
+            <string>BuiltTitlingSb-Regular</string>
+            <string>BuiltTitlingSb-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Z1a-nl-bPX">
+            <objects>
+                <navigationController id="psc-ZC-S7K" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f1S-eH-lOw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ULa-4h-0Kr" kind="relationship" relationship="rootViewController" id="RT0-xM-ffX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umr-bN-eOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-979" y="302"/>
+        </scene>
+        <!--Meme View Controller-->
+        <scene sceneID="bOs-fn-izF">
+            <objects>
+                <viewController id="jfS-zi-ekf" customClass="MemeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dZd-eW-Sbz"/>
+                        <viewControllerLayoutGuide type="bottom" id="jbc-UU-5Vm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="huD-yF-gJa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDH-u8-DVY" userLabel="View1">
+                                <rect key="frame" x="0.0" y="20" width="600" height="197"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ENTER STUFF HERE!" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qxD-ph-OMG">
+                                        <rect key="frame" x="8" y="8" width="584" height="181"/>
+                                        <color key="backgroundColor" red="0.83347143308080807" green="0.83347143308080807" blue="0.83347143308080807" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="qxD-ph-OMG" secondAttribute="trailing" constant="8" id="hAy-qL-adt"/>
+                                    <constraint firstAttribute="bottom" secondItem="qxD-ph-OMG" secondAttribute="bottom" constant="8" id="kSL-CN-Nh4"/>
+                                    <constraint firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="height" multiplier="600:139" constant="-250.35971223021579" id="qFl-Dr-8qT"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="top" constant="8" id="y6t-oI-phM"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="leading" secondItem="GDH-u8-DVY" secondAttribute="leading" constant="8" id="yh5-75-R5g"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jrf-El-ZrU" userLabel="View3">
+                                <rect key="frame" x="0.0" y="432" width="600" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toF-ce-eBq">
+                                        <rect key="frame" x="8" y="8" width="584" height="54"/>
+                                        <color key="backgroundColor" red="0.55610795449999995" green="0.55610795449999995" blue="0.55610795449999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="34"/>
+                                        <state key="normal" title="TAKE A PICTURE!">
+                                            <color key="titleColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="takeAFuckingPicture:" destination="jfS-zi-ekf" eventType="touchUpInside" id="gf9-wC-brO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="top" constant="8" id="4rD-DS-c1a"/>
+                                    <constraint firstAttribute="bottom" secondItem="toF-ce-eBq" secondAttribute="bottom" constant="8" id="93H-q4-bCh"/>
+                                    <constraint firstAttribute="trailing" secondItem="toF-ce-eBq" secondAttribute="trailing" constant="8" id="Dhp-9L-Hwd"/>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" constant="8" id="os9-vr-lZP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-bR-HGl">
+                                <rect key="frame" x="0.0" y="510" width="600" height="90"/>
+                                <color key="backgroundColor" red="1" green="0.34789590720000002" blue="0.35343694809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="swI-Xi-Al6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="40"/>
+                                <state key="normal" title="GIMMEH!">
+                                    <color key="titleColor" red="0.9588093137172885" green="1" blue="0.96910698528796635" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.024513518584834571" green="0.02560763888888884" blue="0.024768030403836877" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="generateThisMofoButton:" destination="jfS-zi-ekf" eventType="touchUpInside" id="Il2-8O-vf3"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oiz-d8-TFc" userLabel="View2">
+                                <rect key="frame" x="0.0" y="225" width="600" height="199"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-aX-yNM">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="199"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0oy-aX-yNM" secondAttribute="trailing" constant="8" id="3gS-X8-8lA"/>
+                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="top" id="JyX-bm-Ofo"/>
+                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="leading" secondItem="oiz-d8-TFc" secondAttribute="leading" constant="8" id="uo4-ag-tWA"/>
+                                    <constraint firstAttribute="bottom" secondItem="0oy-aX-yNM" secondAttribute="bottom" id="xUa-V1-fFf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="width" secondItem="huD-yF-gJa" secondAttribute="width" id="BHH-uJ-C0J"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="width" id="Fc7-pf-9RG"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="huD-yF-gJa" secondAttribute="leading" id="FpF-BJ-Jkf"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="top" secondItem="dZd-eW-Sbz" secondAttribute="bottom" id="Lxj-d0-ZOk"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="leading" secondItem="huD-yF-gJa" secondAttribute="leading" id="MTF-gd-fxB"/>
+                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="bottom" constant="8" id="TIp-ry-J3Y"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="JgG-bR-HGl" secondAttribute="leading" id="XJt-Uy-5JL"/>
+                            <constraint firstItem="JgG-bR-HGl" firstAttribute="bottom" secondItem="jbc-UU-5Vm" secondAttribute="top" id="cky-2c-Ooy"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="bottom" constant="8" symbolic="YES" id="d83-3C-Lcb"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="trailing" secondItem="JgG-bR-HGl" secondAttribute="trailing" id="f8E-uo-7Oj"/>
+                            <constraint firstItem="JgG-bR-HGl" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="bottom" constant="8" symbolic="YES" id="qnh-81-ux1"/>
+                            <constraint firstAttribute="trailing" secondItem="oiz-d8-TFc" secondAttribute="trailing" id="ud7-Ni-Vu9"/>
+                            <constraint firstAttribute="bottom" secondItem="oiz-d8-TFc" secondAttribute="bottom" constant="176" id="vey-zp-w9W"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="trailing" secondItem="Jrf-El-ZrU" secondAttribute="trailing" id="xfj-zA-6hv"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" id="yZc-oe-My2"/>
+                            <constraint firstAttribute="trailing" secondItem="GDH-u8-DVY" secondAttribute="trailing" id="zRF-a5-5hD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nur-SW-uxY"/>
+                    <connections>
+                        <outlet property="enterStuffHereField" destination="qxD-ph-OMG" id="wC5-ko-Mn5"/>
+                        <outlet property="imageCameraImage" destination="0oy-aX-yNM" id="zSv-mJ-eiZ"/>
+                        <outlet property="takeTheFuckingPicture" destination="toF-ce-eBq" id="H0h-In-YDr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5S7-n1-TfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394" y="308"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="Nrz-7s-7b4">
+            <objects>
+                <viewController id="ULa-4h-0Kr" customClass="ResultsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wLU-Tb-ws7"/>
+                        <viewControllerLayoutGuide type="bottom" id="24S-vN-sij"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E7C-Z7-7ae">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UUB-0F-I79">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yj-1S-eFX">
+                                <rect key="frame" x="10" y="104" width="580" height="0.0"/>
+                                <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="50"/>
+                                <color key="textColor" red="0.9588093137" green="1" blue="0.96910698529999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UUB-0F-I79" secondAttribute="trailing" id="Dhj-1E-izd"/>
+                            <constraint firstItem="4yj-1S-eFX" firstAttribute="leading" secondItem="E7C-Z7-7ae" secondAttribute="leading" constant="10" id="PIb-2I-rgy"/>
+                            <constraint firstItem="24S-vN-sij" firstAttribute="top" secondItem="UUB-0F-I79" secondAttribute="bottom" id="UWw-ix-KdF"/>
+                            <constraint firstAttribute="trailing" secondItem="4yj-1S-eFX" secondAttribute="trailing" constant="10" id="ef2-WQ-Eos"/>
+                            <constraint firstItem="UUB-0F-I79" firstAttribute="leading" secondItem="E7C-Z7-7ae" secondAttribute="leading" id="gKZ-Bd-PA9"/>
+                            <constraint firstItem="UUB-0F-I79" firstAttribute="top" secondItem="wLU-Tb-ws7" secondAttribute="bottom" id="teq-e0-csb"/>
+                            <constraint firstItem="4yj-1S-eFX" firstAttribute="top" secondItem="wLU-Tb-ws7" secondAttribute="bottom" constant="40" id="yty-ec-uyo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4wx-UZ-atA">
+                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="UOD-60-4sl">
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="ULa-4h-0Kr" id="bIA-6C-kgc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="myf-l5-Z7s">
+                            <connections>
+                                <segue destination="jfS-zi-ekf" kind="presentation" id="18H-4v-Rlo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="memeImage" destination="UUB-0F-I79" id="iac-bZ-45S"/>
+                        <outlet property="memeLabel" destination="4yj-1S-eFX" id="Gax-Xy-XKy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fi-py-HwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303" y="308"/>
+        </scene>
+    </scenes>
+</document>
