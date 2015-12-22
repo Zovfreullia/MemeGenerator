@@ -11,6 +11,7 @@
 #import "MemeViewController.h"
 
 @interface ResultsViewController()
+@property (weak, nonatomic) IBOutlet UIView *placeHolderView;
 
 @property (nonatomic) BOOL touchingLabel;
 
@@ -42,6 +43,7 @@
 }
 
 - (void) memeGenerator: (UIImage *)memeImage theLabel: (NSString *)memeString{
+    self.placeHolderView.hidden = YES;
     self.memeImage.image = memeImage;
     self.memeLabel.text = memeString;
     NSLog(@"image: %@, text: %@", memeImage, memeString);

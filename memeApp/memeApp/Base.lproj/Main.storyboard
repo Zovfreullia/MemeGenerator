@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psc-ZC-S7K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psc-ZC-S7K">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="built.ttf">
-            <string>BuiltTitlingSb-Regular</string>
-            <string>BuiltTitlingSb-Regular</string>
-            <string>BuiltTitlingSb-Regular</string>
-            <string>BuiltTitlingSb-Regular</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="Z1a-nl-bPX">
@@ -43,13 +36,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDH-u8-DVY" userLabel="View1">
-                                <rect key="frame" x="0.0" y="20" width="600" height="197"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="153"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ENTER STUFF HERE!" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qxD-ph-OMG">
-                                        <rect key="frame" x="8" y="8" width="584" height="181"/>
+                                        <rect key="frame" x="8" y="8" width="584" height="137"/>
                                         <color key="backgroundColor" red="0.83347143308080807" green="0.83347143308080807" blue="0.83347143308080807" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="textColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
@@ -57,7 +50,7 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="qxD-ph-OMG" secondAttribute="trailing" constant="8" id="hAy-qL-adt"/>
                                     <constraint firstAttribute="bottom" secondItem="qxD-ph-OMG" secondAttribute="bottom" constant="8" id="kSL-CN-Nh4"/>
-                                    <constraint firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="height" multiplier="600:139" constant="-250.35971223021579" id="qFl-Dr-8qT"/>
+                                    <constraint firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="height" multiplier="600:139" constant="-60.431654676258972" id="qFl-Dr-8qT"/>
                                     <constraint firstItem="qxD-ph-OMG" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="top" constant="8" id="y6t-oI-phM"/>
                                     <constraint firstItem="qxD-ph-OMG" firstAttribute="leading" secondItem="GDH-u8-DVY" secondAttribute="leading" constant="8" id="yh5-75-R5g"/>
                                 </constraints>
@@ -68,7 +61,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toF-ce-eBq">
                                         <rect key="frame" x="8" y="8" width="584" height="54"/>
                                         <color key="backgroundColor" red="0.55610795449999995" green="0.55610795449999995" blue="0.55610795449999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="34"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
                                         <state key="normal" title="TAKE A PICTURE!">
                                             <color key="titleColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -91,7 +84,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="swI-Xi-Al6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="GIMMEH!">
                                     <color key="titleColor" red="0.9588093137172885" green="1" blue="0.96910698528796635" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.024513518584834571" green="0.02560763888888884" blue="0.024768030403836877" alpha="1" colorSpace="calibratedRGB"/>
@@ -103,7 +96,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oiz-d8-TFc" userLabel="View2">
                                 <rect key="frame" x="0.0" y="225" width="600" height="199"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-aX-yNM">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picture" translatesAutoresizingMaskIntoConstraints="NO" id="0oy-aX-yNM">
                                         <rect key="frame" x="8" y="0.0" width="584" height="199"/>
                                     </imageView>
                                 </subviews>
@@ -116,7 +109,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="GDH-u8-DVY" firstAttribute="width" secondItem="huD-yF-gJa" secondAttribute="width" id="BHH-uJ-C0J"/>
                             <constraint firstItem="oiz-d8-TFc" firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="width" id="Fc7-pf-9RG"/>
@@ -136,7 +129,13 @@
                             <constraint firstAttribute="trailing" secondItem="GDH-u8-DVY" secondAttribute="trailing" id="zRF-a5-5hD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Nur-SW-uxY"/>
+                    <navigationItem key="navigationItem" id="Nur-SW-uxY">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mAP-Hg-SmF">
+                            <connections>
+                                <action selector="cancelButton:" destination="jfS-zi-ekf" id="279-as-xax"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="enterStuffHereField" destination="qxD-ph-OMG" id="wC5-ko-Mn5"/>
                         <outlet property="imageCameraImage" destination="0oy-aX-yNM" id="zSv-mJ-eiZ"/>
@@ -164,16 +163,51 @@
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yj-1S-eFX">
                                 <rect key="frame" x="10" y="104" width="580" height="0.0"/>
-                                <fontDescription key="fontDescription" name="BuiltTitlingSb-Regular" family="Built Titling" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
                                 <color key="textColor" red="0.9588093137" green="1" blue="0.96910698529999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HqQ-Sl-jRY">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press + to start!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6g-Q9-S7P">
+                                        <rect key="frame" x="20" y="100" width="560" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="S6g-Q9-S7P" secondAttribute="height" multiplier="2:1" id="sBx-0p-dJ4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                        <color key="textColor" red="1" green="0.9188196408" blue="0.99713698989999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="sBx-0p-dJ4"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="S6g-Q9-S7P" firstAttribute="centerX" secondItem="HqQ-Sl-jRY" secondAttribute="centerX" id="2zb-1o-gNs"/>
+                                    <constraint firstAttribute="trailing" secondItem="S6g-Q9-S7P" secondAttribute="trailing" constant="20" id="XDC-he-XjO"/>
+                                    <constraint firstItem="S6g-Q9-S7P" firstAttribute="top" secondItem="HqQ-Sl-jRY" secondAttribute="top" constant="100" id="edt-s1-EKM"/>
+                                    <constraint firstItem="S6g-Q9-S7P" firstAttribute="leading" secondItem="HqQ-Sl-jRY" secondAttribute="leading" constant="20" id="rBZ-Gt-4tx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2zb-1o-gNs"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="HqQ-Sl-jRY" firstAttribute="leading" secondItem="E7C-Z7-7ae" secondAttribute="leadingMargin" constant="-20" id="2wY-Hh-bpr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HqQ-Sl-jRY" secondAttribute="trailing" constant="-20" id="4JV-PG-Jh9"/>
                             <constraint firstAttribute="trailing" secondItem="UUB-0F-I79" secondAttribute="trailing" id="Dhj-1E-izd"/>
+                            <constraint firstItem="24S-vN-sij" firstAttribute="top" secondItem="HqQ-Sl-jRY" secondAttribute="bottom" id="EaE-jv-42V"/>
                             <constraint firstItem="4yj-1S-eFX" firstAttribute="leading" secondItem="E7C-Z7-7ae" secondAttribute="leading" constant="10" id="PIb-2I-rgy"/>
                             <constraint firstItem="24S-vN-sij" firstAttribute="top" secondItem="UUB-0F-I79" secondAttribute="bottom" id="UWw-ix-KdF"/>
+                            <constraint firstItem="HqQ-Sl-jRY" firstAttribute="top" secondItem="wLU-Tb-ws7" secondAttribute="bottom" id="awt-k8-8lw"/>
                             <constraint firstAttribute="trailing" secondItem="4yj-1S-eFX" secondAttribute="trailing" constant="10" id="ef2-WQ-Eos"/>
                             <constraint firstItem="UUB-0F-I79" firstAttribute="leading" secondItem="E7C-Z7-7ae" secondAttribute="leading" id="gKZ-Bd-PA9"/>
                             <constraint firstItem="UUB-0F-I79" firstAttribute="top" secondItem="wLU-Tb-ws7" secondAttribute="bottom" id="teq-e0-csb"/>
@@ -188,13 +222,14 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="myf-l5-Z7s">
                             <connections>
-                                <segue destination="jfS-zi-ekf" kind="presentation" id="18H-4v-Rlo"/>
+                                <segue destination="jfS-zi-ekf" kind="show" id="18H-4v-Rlo"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="memeImage" destination="UUB-0F-I79" id="iac-bZ-45S"/>
                         <outlet property="memeLabel" destination="4yj-1S-eFX" id="Gax-Xy-XKy"/>
+                        <outlet property="placeHolderView" destination="HqQ-Sl-jRY" id="BRl-RH-KzW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fi-py-HwV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -202,4 +237,7 @@
             <point key="canvasLocation" x="-303" y="308"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="picture" width="512" height="512"/>
+    </resources>
 </document>

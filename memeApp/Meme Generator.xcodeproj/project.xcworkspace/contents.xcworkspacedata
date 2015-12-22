@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:memeApp.xcodeproj">
+      location = "self:/Users/Mima/Desktop/MemeGenerator/memeApp/Meme Generator.xcodeproj">
    </FileRef>
 </Workspace>

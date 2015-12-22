@@ -20,8 +20,8 @@
 
 - (IBAction)generateThisMofoButton:(id)sender {
     [self.delegate memeGenerator:self.imageCameraImage.image theLabel:self.enterStuffHereField.text];
-    [self dismissViewControllerAnimated:YES completion:nil];
     NSLog(@"working");
+        [self.navigationController popToRootViewControllerAnimated:YES];
 }
 - (IBAction)takeAFuckingPicture:(id)sender {
     self.picker.allowsEditing = YES;
@@ -46,6 +46,9 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     textField.text = @" ";
+}
+- (IBAction)cancelButton:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 

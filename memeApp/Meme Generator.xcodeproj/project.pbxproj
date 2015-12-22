@@ -15,7 +15,6 @@
 		3D379B241BA5C8A5007D7649 /* memeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D379B231BA5C8A5007D7649 /* memeAppTests.m */; };
 		3D379B2F1BA5C8A5007D7649 /* memeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D379B2E1BA5C8A5007D7649 /* memeAppUITests.m */; };
 		3D379B3E1BA5CB63007D7649 /* MemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D379B3D1BA5CB63007D7649 /* MemeViewController.m */; };
-		3D379B401BA5CEFC007D7649 /* built.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D379B3F1BA5CEFC007D7649 /* built.ttf */; };
 		3D379B441BA5FB5E007D7649 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D379B431BA5FB5E007D7649 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D379B061BA5C8A5007D7649 /* memeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D379B061BA5C8A5007D7649 /* Meme Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D379B0A1BA5C8A5007D7649 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D379B0C1BA5C8A5007D7649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D379B0D1BA5C8A5007D7649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,18 +44,18 @@
 		3D379B151BA5C8A5007D7649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D379B181BA5C8A5007D7649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D379B1A1BA5C8A5007D7649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D379B1F1BA5C8A5007D7649 /* memeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D379B1F1BA5C8A5007D7649 /* Meme Generator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme Generator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D379B231BA5C8A5007D7649 /* memeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memeAppTests.m; sourceTree = "<group>"; };
 		3D379B251BA5C8A5007D7649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D379B2A1BA5C8A5007D7649 /* memeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D379B2A1BA5C8A5007D7649 /* Meme Generator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme Generator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D379B2E1BA5C8A5007D7649 /* memeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memeAppUITests.m; sourceTree = "<group>"; };
 		3D379B301BA5C8A5007D7649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D379B3C1BA5CB63007D7649 /* MemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeViewController.h; sourceTree = "<group>"; };
 		3D379B3D1BA5CB63007D7649 /* MemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeViewController.m; sourceTree = "<group>"; };
-		3D379B3F1BA5CEFC007D7649 /* built.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = built.ttf; path = ../../../Downloads/built_titling/built.ttf; sourceTree = "<group>"; };
 		3D379B411BA5F837007D7649 /* cameraImageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraImageDelegate.h; sourceTree = "<group>"; };
 		3D379B421BA5FB5E007D7649 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		3D379B431BA5FB5E007D7649 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		3D5DB93B1C1CA3A500653AA0 /* built.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = built.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +96,9 @@
 		3D379B071BA5C8A5007D7649 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D379B061BA5C8A5007D7649 /* memeApp.app */,
-				3D379B1F1BA5C8A5007D7649 /* memeAppTests.xctest */,
-				3D379B2A1BA5C8A5007D7649 /* memeAppUITests.xctest */,
+				3D379B061BA5C8A5007D7649 /* Meme Generator.app */,
+				3D379B1F1BA5C8A5007D7649 /* Meme Generator.xctest */,
+				3D379B2A1BA5C8A5007D7649 /* Meme Generator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +106,6 @@
 		3D379B081BA5C8A5007D7649 /* memeApp */ = {
 			isa = PBXGroup;
 			children = (
-				3D379B3F1BA5CEFC007D7649 /* built.ttf */,
 				3D379B0C1BA5C8A5007D7649 /* AppDelegate.h */,
 				3D379B0D1BA5C8A5007D7649 /* AppDelegate.m */,
 				3D379B421BA5FB5E007D7649 /* ResultsViewController.h */,
@@ -127,6 +125,7 @@
 		3D379B091BA5C8A5007D7649 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D5DB93B1C1CA3A500653AA0 /* built.ttf */,
 				3D379B0A1BA5C8A5007D7649 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D379B051BA5C8A5007D7649 /* memeApp */ = {
+		3D379B051BA5C8A5007D7649 /* Meme Generator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D379B331BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeApp" */;
+			buildConfigurationList = 3D379B331BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme Generator" */;
 			buildPhases = (
 				3D379B021BA5C8A5007D7649 /* Sources */,
 				3D379B031BA5C8A5007D7649 /* Frameworks */,
@@ -165,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = memeApp;
+			name = "Meme Generator";
 			productName = memeApp;
-			productReference = 3D379B061BA5C8A5007D7649 /* memeApp.app */;
+			productReference = 3D379B061BA5C8A5007D7649 /* Meme Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D379B1E1BA5C8A5007D7649 /* memeAppTests */ = {
+		3D379B1E1BA5C8A5007D7649 /* Meme GeneratorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D379B361BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeAppTests" */;
+			buildConfigurationList = 3D379B361BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme GeneratorTests" */;
 			buildPhases = (
 				3D379B1B1BA5C8A5007D7649 /* Sources */,
 				3D379B1C1BA5C8A5007D7649 /* Frameworks */,
@@ -183,14 +182,14 @@
 			dependencies = (
 				3D379B211BA5C8A5007D7649 /* PBXTargetDependency */,
 			);
-			name = memeAppTests;
+			name = "Meme GeneratorTests";
 			productName = memeAppTests;
-			productReference = 3D379B1F1BA5C8A5007D7649 /* memeAppTests.xctest */;
+			productReference = 3D379B1F1BA5C8A5007D7649 /* Meme Generator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D379B291BA5C8A5007D7649 /* memeAppUITests */ = {
+		3D379B291BA5C8A5007D7649 /* Meme GeneratorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D379B391BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeAppUITests" */;
+			buildConfigurationList = 3D379B391BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme GeneratorUITests" */;
 			buildPhases = (
 				3D379B261BA5C8A5007D7649 /* Sources */,
 				3D379B271BA5C8A5007D7649 /* Frameworks */,
@@ -201,9 +200,9 @@
 			dependencies = (
 				3D379B2C1BA5C8A5007D7649 /* PBXTargetDependency */,
 			);
-			name = memeAppUITests;
+			name = "Meme GeneratorUITests";
 			productName = memeAppUITests;
-			productReference = 3D379B2A1BA5C8A5007D7649 /* memeAppUITests.xctest */;
+			productReference = 3D379B2A1BA5C8A5007D7649 /* Meme Generator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D379B011BA5C8A5007D7649 /* Build configuration list for PBXProject "memeApp" */;
+			buildConfigurationList = 3D379B011BA5C8A5007D7649 /* Build configuration list for PBXProject "Meme Generator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D379B051BA5C8A5007D7649 /* memeApp */,
-				3D379B1E1BA5C8A5007D7649 /* memeAppTests */,
-				3D379B291BA5C8A5007D7649 /* memeAppUITests */,
+				3D379B051BA5C8A5007D7649 /* Meme Generator */,
+				3D379B1E1BA5C8A5007D7649 /* Meme GeneratorTests */,
+				3D379B291BA5C8A5007D7649 /* Meme GeneratorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D379B191BA5C8A5007D7649 /* LaunchScreen.storyboard in Resources */,
-				3D379B401BA5CEFC007D7649 /* built.ttf in Resources */,
 				3D379B161BA5C8A5007D7649 /* Assets.xcassets in Resources */,
 				3D379B141BA5C8A5007D7649 /* Main.storyboard in Resources */,
 			);
@@ -310,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		3D379B211BA5C8A5007D7649 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D379B051BA5C8A5007D7649 /* memeApp */;
+			target = 3D379B051BA5C8A5007D7649 /* Meme Generator */;
 			targetProxy = 3D379B201BA5C8A5007D7649 /* PBXContainerItemProxy */;
 		};
 		3D379B2C1BA5C8A5007D7649 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D379B051BA5C8A5007D7649 /* memeApp */;
+			target = 3D379B051BA5C8A5007D7649 /* Meme Generator */;
 			targetProxy = 3D379B2B1BA5C8A5007D7649 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,10 +425,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = memeApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kaira;
+				PRODUCT_NAME = "Meme Generator";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -442,10 +440,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = memeApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kaira;
+				PRODUCT_NAME = "Meme Generator";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -457,8 +455,8 @@
 				INFOPLIST_FILE = memeAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memeApp.app/memeApp";
+				PRODUCT_NAME = "Meme Generator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meme Generator.app/Meme Generator";
 			};
 			name = Debug;
 		};
@@ -469,8 +467,8 @@
 				INFOPLIST_FILE = memeAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memeApp.app/memeApp";
+				PRODUCT_NAME = "Meme Generator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meme Generator.app/Meme Generator";
 			};
 			name = Release;
 		};
@@ -480,7 +478,7 @@
 				INFOPLIST_FILE = memeAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Meme Generator";
 				TEST_TARGET_NAME = memeApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -492,7 +490,7 @@
 				INFOPLIST_FILE = memeAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.accesscode.zovfreullia.memeAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Meme Generator";
 				TEST_TARGET_NAME = memeApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -501,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D379B011BA5C8A5007D7649 /* Build configuration list for PBXProject "memeApp" */ = {
+		3D379B011BA5C8A5007D7649 /* Build configuration list for PBXProject "Meme Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D379B311BA5C8A5007D7649 /* Debug */,
@@ -510,29 +508,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D379B331BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeApp" */ = {
+		3D379B331BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme Generator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D379B341BA5C8A5007D7649 /* Debug */,
 				3D379B351BA5C8A5007D7649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3D379B361BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeAppTests" */ = {
+		3D379B361BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme GeneratorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D379B371BA5C8A5007D7649 /* Debug */,
 				3D379B381BA5C8A5007D7649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3D379B391BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "memeAppUITests" */ = {
+		3D379B391BA5C8A5007D7649 /* Build configuration list for PBXNativeTarget "Meme GeneratorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D379B3A1BA5C8A5007D7649 /* Debug */,
 				3D379B3B1BA5C8A5007D7649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

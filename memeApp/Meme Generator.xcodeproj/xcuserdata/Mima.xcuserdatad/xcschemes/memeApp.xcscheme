@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D379B051BA5C8A5007D7649"
-               BuildableName = "memeApp.app"
-               BlueprintName = "memeApp"
-               ReferencedContainer = "container:memeApp.xcodeproj">
+               BuildableName = "Meme Generator.app"
+               BlueprintName = "Meme Generator"
+               ReferencedContainer = "container:Meme Generator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D379B1E1BA5C8A5007D7649"
-               BuildableName = "memeAppTests.xctest"
-               BlueprintName = "memeAppTests"
-               ReferencedContainer = "container:memeApp.xcodeproj">
+               BuildableName = "Meme Generator.xctest"
+               BlueprintName = "Meme GeneratorTests"
+               ReferencedContainer = "container:Meme Generator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D379B291BA5C8A5007D7649"
-               BuildableName = "memeAppUITests.xctest"
-               BlueprintName = "memeAppUITests"
-               ReferencedContainer = "container:memeApp.xcodeproj">
+               BuildableName = "Meme Generator.xctest"
+               BlueprintName = "Meme GeneratorUITests"
+               ReferencedContainer = "container:Meme Generator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D379B051BA5C8A5007D7649"
-            BuildableName = "memeApp.app"
-            BlueprintName = "memeApp"
-            ReferencedContainer = "container:memeApp.xcodeproj">
+            BuildableName = "Meme Generator.app"
+            BlueprintName = "Meme Generator"
+            ReferencedContainer = "container:Meme Generator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D379B051BA5C8A5007D7649"
-            BuildableName = "memeApp.app"
-            BlueprintName = "memeApp"
-            ReferencedContainer = "container:memeApp.xcodeproj">
+            BuildableName = "Meme Generator.app"
+            BlueprintName = "Meme Generator"
+            ReferencedContainer = "container:Meme Generator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D379B051BA5C8A5007D7649"
-            BuildableName = "memeApp.app"
-            BlueprintName = "memeApp"
-            ReferencedContainer = "container:memeApp.xcodeproj">
+            BuildableName = "Meme Generator.app"
+            BlueprintName = "Meme Generator"
+            ReferencedContainer = "container:Meme Generator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
