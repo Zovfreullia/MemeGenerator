@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psc-ZC-S7K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psc-ZC-S7K">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -48,41 +48,63 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="qxD-ph-OMG" secondAttribute="trailing" constant="8" id="hAy-qL-adt"/>
-                                    <constraint firstAttribute="bottom" secondItem="qxD-ph-OMG" secondAttribute="bottom" constant="8" id="kSL-CN-Nh4"/>
-                                    <constraint firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="height" multiplier="600:139" constant="-60.431654676258972" id="qFl-Dr-8qT"/>
-                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="top" constant="8" id="y6t-oI-phM"/>
-                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="leading" secondItem="GDH-u8-DVY" secondAttribute="leading" constant="8" id="yh5-75-R5g"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="leading" secondItem="GDH-u8-DVY" secondAttribute="leadingMargin" id="XKg-SE-Dos"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="bottom" secondItem="GDH-u8-DVY" secondAttribute="bottomMargin" id="eN6-9s-eMA"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="trailing" secondItem="GDH-u8-DVY" secondAttribute="trailingMargin" id="lkw-2Z-7XN"/>
+                                    <constraint firstItem="qxD-ph-OMG" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="topMargin" id="omj-8x-qi8"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jrf-El-ZrU" userLabel="View3">
                                 <rect key="frame" x="0.0" y="432" width="600" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toF-ce-eBq">
-                                        <rect key="frame" x="8" y="8" width="584" height="54"/>
+                                        <rect key="frame" x="8" y="8" width="287" height="54"/>
                                         <color key="backgroundColor" red="0.55610795449999995" green="0.55610795449999995" blue="0.55610795449999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
-                                        <state key="normal" title="TAKE A PICTURE!">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="3gg-yt-Rj6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <state key="normal" title="SNAP A PICTURE!">
                                             <color key="titleColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="takeAFuckingPicture:" destination="jfS-zi-ekf" eventType="touchUpInside" id="gf9-wC-brO"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uh-zv-7Tz">
+                                        <rect key="frame" x="305" y="8" width="287" height="54"/>
+                                        <color key="backgroundColor" red="0.55610795449999995" green="0.55610795449999995" blue="0.55610795449999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="uF9-Mi-Qmd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                        <state key="normal" title="PHOTO ALBUM!">
+                                            <color key="titleColor" red="0.95727367490000004" green="1" blue="0.96721257709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getPictureFromAlbum:" destination="jfS-zi-ekf" eventType="touchUpInside" id="P6u-n5-Oph"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="toF-ce-eBq" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="top" constant="8" id="4rD-DS-c1a"/>
-                                    <constraint firstAttribute="bottom" secondItem="toF-ce-eBq" secondAttribute="bottom" constant="8" id="93H-q4-bCh"/>
-                                    <constraint firstAttribute="trailing" secondItem="toF-ce-eBq" secondAttribute="trailing" constant="8" id="Dhp-9L-Hwd"/>
-                                    <constraint firstItem="toF-ce-eBq" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" constant="8" id="os9-vr-lZP"/>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="width" secondItem="0Uh-zv-7Tz" secondAttribute="width" id="3cQ-DW-5cs"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Uh-zv-7Tz" secondAttribute="trailing" constant="8" id="4eU-C8-NYp"/>
+                                    <constraint firstAttribute="bottom" secondItem="toF-ce-eBq" secondAttribute="bottom" constant="8" id="9MM-LU-B4u"/>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="height" secondItem="0Uh-zv-7Tz" secondAttribute="height" id="A2x-Ja-T2I"/>
+                                    <constraint firstItem="0Uh-zv-7Tz" firstAttribute="leading" secondItem="toF-ce-eBq" secondAttribute="trailing" constant="10" id="FVG-dO-nFX"/>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="top" constant="8" id="aLe-Rv-kJ2"/>
+                                    <constraint firstItem="0Uh-zv-7Tz" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="top" constant="8" id="ayU-tj-f1M"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Uh-zv-7Tz" secondAttribute="bottom" constant="8" id="m49-Tv-7qe"/>
+                                    <constraint firstItem="0Uh-zv-7Tz" firstAttribute="leading" secondItem="toF-ce-eBq" secondAttribute="trailing" constant="10" id="mlp-u1-MeQ"/>
+                                    <constraint firstItem="toF-ce-eBq" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" constant="8" id="wDh-xh-SzW"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-bR-HGl">
                                 <rect key="frame" x="0.0" y="510" width="600" height="90"/>
                                 <color key="backgroundColor" red="1" green="0.34789590720000002" blue="0.35343694809999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="swI-Xi-Al6"/>
+                                    <constraint firstAttribute="height" constant="90" id="gff-Tb-I7r"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="GIMMEH!">
@@ -102,31 +124,30 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="0oy-aX-yNM" secondAttribute="trailing" constant="8" id="3gS-X8-8lA"/>
-                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="top" id="JyX-bm-Ofo"/>
-                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="leading" secondItem="oiz-d8-TFc" secondAttribute="leading" constant="8" id="uo4-ag-tWA"/>
-                                    <constraint firstAttribute="bottom" secondItem="0oy-aX-yNM" secondAttribute="bottom" id="xUa-V1-fFf"/>
+                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="top" id="B1g-xm-w5v"/>
+                                    <constraint firstAttribute="bottom" secondItem="0oy-aX-yNM" secondAttribute="bottom" id="YEA-uQ-i5p"/>
+                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="trailing" secondItem="oiz-d8-TFc" secondAttribute="trailingMargin" id="kRw-nd-JaJ"/>
+                                    <constraint firstItem="0oy-aX-yNM" firstAttribute="leading" secondItem="oiz-d8-TFc" secondAttribute="leadingMargin" id="mGv-y0-HSF"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.078431372550000003" green="0.078431372550000003" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="GDH-u8-DVY" firstAttribute="width" secondItem="huD-yF-gJa" secondAttribute="width" id="BHH-uJ-C0J"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="width" secondItem="GDH-u8-DVY" secondAttribute="width" id="Fc7-pf-9RG"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="huD-yF-gJa" secondAttribute="leading" id="FpF-BJ-Jkf"/>
-                            <constraint firstItem="GDH-u8-DVY" firstAttribute="top" secondItem="dZd-eW-Sbz" secondAttribute="bottom" id="Lxj-d0-ZOk"/>
-                            <constraint firstItem="GDH-u8-DVY" firstAttribute="leading" secondItem="huD-yF-gJa" secondAttribute="leading" id="MTF-gd-fxB"/>
-                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="bottom" constant="8" id="TIp-ry-J3Y"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="JgG-bR-HGl" secondAttribute="leading" id="XJt-Uy-5JL"/>
-                            <constraint firstItem="JgG-bR-HGl" firstAttribute="bottom" secondItem="jbc-UU-5Vm" secondAttribute="top" id="cky-2c-Ooy"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="bottom" constant="8" symbolic="YES" id="d83-3C-Lcb"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="trailing" secondItem="JgG-bR-HGl" secondAttribute="trailing" id="f8E-uo-7Oj"/>
-                            <constraint firstItem="JgG-bR-HGl" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="bottom" constant="8" symbolic="YES" id="qnh-81-ux1"/>
-                            <constraint firstAttribute="trailing" secondItem="oiz-d8-TFc" secondAttribute="trailing" id="ud7-Ni-Vu9"/>
-                            <constraint firstAttribute="bottom" secondItem="oiz-d8-TFc" secondAttribute="bottom" constant="176" id="vey-zp-w9W"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="trailing" secondItem="Jrf-El-ZrU" secondAttribute="trailing" id="xfj-zA-6hv"/>
-                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" id="yZc-oe-My2"/>
-                            <constraint firstAttribute="trailing" secondItem="GDH-u8-DVY" secondAttribute="trailing" id="zRF-a5-5hD"/>
+                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="leading" secondItem="JgG-bR-HGl" secondAttribute="leading" id="0Nk-1l-KGO"/>
+                            <constraint firstItem="JgG-bR-HGl" firstAttribute="bottom" secondItem="jbc-UU-5Vm" secondAttribute="top" id="8o5-4Q-ofr"/>
+                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="top" secondItem="huD-yF-gJa" secondAttribute="top" constant="432" id="924-dd-Oj6"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="leading" secondItem="huD-yF-gJa" secondAttribute="leading" id="Cjv-n5-6OX"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="top" secondItem="huD-yF-gJa" secondAttribute="top" constant="225" id="EcC-7I-r6u"/>
+                            <constraint firstItem="JgG-bR-HGl" firstAttribute="top" secondItem="Jrf-El-ZrU" secondAttribute="bottom" constant="8" symbolic="YES" id="HaU-L2-Il7"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="trailing" secondItem="oiz-d8-TFc" secondAttribute="trailing" id="KNu-1s-VH1"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="leading" secondItem="Jrf-El-ZrU" secondAttribute="leading" id="LK5-t3-5H2"/>
+                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="top" secondItem="oiz-d8-TFc" secondAttribute="bottom" constant="8" symbolic="YES" id="Pd6-SL-aDi"/>
+                            <constraint firstAttribute="trailing" secondItem="GDH-u8-DVY" secondAttribute="trailing" id="atF-5h-iEb"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="top" secondItem="dZd-eW-Sbz" secondAttribute="bottom" id="bxf-7R-kec"/>
+                            <constraint firstItem="GDH-u8-DVY" firstAttribute="leading" secondItem="oiz-d8-TFc" secondAttribute="leading" id="eHu-6w-V8X"/>
+                            <constraint firstItem="Jrf-El-ZrU" firstAttribute="trailing" secondItem="JgG-bR-HGl" secondAttribute="trailing" id="fAQ-C4-SSK"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="top" secondItem="GDH-u8-DVY" secondAttribute="bottom" constant="8" symbolic="YES" id="s5X-N7-b5T"/>
+                            <constraint firstItem="oiz-d8-TFc" firstAttribute="trailing" secondItem="Jrf-El-ZrU" secondAttribute="trailing" id="zmC-w9-yMJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nur-SW-uxY">

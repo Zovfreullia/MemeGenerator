@@ -28,6 +28,11 @@
     self.picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     [self presentViewController:self.picker animated:YES completion:NULL];
 }
+- (IBAction)getPictureFromAlbum:(UIButton *)sender {
+    self.picker.allowsEditing = YES;
+    self.picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    [self presentViewController:self.picker animated:YES completion:NULL];
+}
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [textField resignFirstResponder];
